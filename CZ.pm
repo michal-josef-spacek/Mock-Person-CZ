@@ -394,11 +394,11 @@ L<cs.wikipedia.org - female names|http://cs.wikipedia.org/wiki/Seznam_nej%C4%8Da
 
 =item B<first_male()>
 
-Returns random fists name of male person.
+Returns random first name of male person.
 
 =item B<first_female()>
 
-Returns random fists name of female person.
+Returns random first name of female person.
 
 =item B<last_male()>
 
