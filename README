@@ -34,10 +34,10 @@ DESCRIPTION
 
 SUBROUTINES
     first_male()
-            Returns random fists name of male person.
+            Returns random first name of male person.
 
     first_female()
-            Returns random fists name of female person.
+            Returns random first name of female person.
 
     last_male()
             Returns random last name of male person.
