@@ -357,7 +357,7 @@ Mock::Person::CZ - Generate random sets of Czech names.
 
 =head1 SYNOPSIS
 
- use Mock::Person::DE qw(first_male first_female last_male last_female
+ use Mock::Person::CZ qw(first_male first_female last_male last_female
          middle_male middle_female name);
  my $first_male = first_male();
  my $first_female = first_female();
@@ -542,7 +542,7 @@ L<Mock::Person::RU>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Mock-Person-DE>
+L<https://github.com/tupinek/Mock-Person-CZ>
 
 =head1 AUTHOR
 
