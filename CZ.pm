@@ -537,7 +537,9 @@ L<Readonly>.
 
 L<Mock::Person>,
 L<Mock::Person::DE>,
+L<Mock::Person::EN>,
 L<Mock::Person::SK>,
+L<Mock::Person::SK::ROM>,
 L<Mock::Person::SV>,
 L<Mock::Person::RU>.
 
