@@ -8,4 +8,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Mock::Person::CZ::VERSION, 0.02, 'Version.');
+is($Mock::Person::CZ::VERSION, 0.03, 'Version.');
