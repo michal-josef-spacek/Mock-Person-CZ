@@ -1,7 +1,8 @@
 0.02
-- Add link to Mock::Person::SK in doc.
-- Fix LICENSE year.
-- Fix doc spelling.
+ - Add link to Mock::Person::SK in doc.
+ - Fix LICENSE year.
+ - Fix doc spelling.
+ - Rewrite Changes file to CPAN::Changes::SPEC format.
 
-0.01 (July 26, 2013)
-- First version.
+0.01 2013-07-26
+ - First version.
