@@ -1,4 +1,5 @@
 0.03
+ - Add 'readme_from' directive to Makefile.PL.
 
 0.02 2013-09-21
  - Add link to Mock::Person::SK in doc.
