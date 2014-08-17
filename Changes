@@ -1,7 +1,7 @@
 0.03
  - Add 'readme_from' directive to Makefile.PL.
  - Fix LICENSE file.
- - Update Module::Install to 1.08 version.
+ - Update Module::Install to 1.10 version.
 
 0.02 2013-09-21
  - Add link to Mock::Person::SK in doc.
