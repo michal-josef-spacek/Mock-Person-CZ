@@ -29,6 +29,7 @@ no_index:
 requires:
   Exporter: 0
   Readonly: 0
+  perl: 5.8.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Mock-Person-CZ
   homepage: https://github.com/tupinek/Mock-Person-CZ

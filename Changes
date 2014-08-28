@@ -1,5 +1,6 @@
 0.03
  - Add 'readme_from' directive to Makefile.PL.
+ - Add minimum version of Perl.
  - Fix LICENSE file.
  - Update Module::Install to 1.10 version.
 
