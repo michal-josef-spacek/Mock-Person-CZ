@@ -1,4 +1,4 @@
-0.03
+0.03 2014-08-29T01:47:35+02:00
  - Add 'readme_from' directive to Makefile.PL.
  - Add minimum version of Perl.
  - Fix LICENSE file.
