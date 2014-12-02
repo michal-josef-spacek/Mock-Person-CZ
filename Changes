@@ -1,4 +1,5 @@
 0.04
+ - Fix comment (thanks Mohammad S Anwar).
 
 0.03 2014-08-29T01:47:35+02:00
  - Add 'readme_from' directive to Makefile.PL.
