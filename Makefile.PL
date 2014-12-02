@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Generate random sets of Czech names.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Mock-Person-CZ';
 readme_from 'CZ.pm';
