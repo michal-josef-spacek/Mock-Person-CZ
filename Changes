@@ -1,5 +1,6 @@
 0.04
  - Fix comment (thanks Mohammad S Anwar).
+ - Update LICENSE AND COPYRIGHT section to my standard.
  - Update Module::Install to 1.14 version.
 
 0.03 2014-08-29T01:47:35+02:00
