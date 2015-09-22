@@ -33,25 +33,25 @@ DESCRIPTION
         ch_%C5%BEensk%C3%BDch_jmen_v_%C4%8Cesk%C3%A9_republice>.
 
 SUBROUTINES
-    first_male()
+    "first_male()"
             Returns random first name of male person.
 
-    first_female()
+    "first_female()"
             Returns random first name of female person.
 
-    last_male()
+    "last_male()"
             Returns random last name of male person.
 
-    last_female()
+    "last_female()"
             Returns random last name of female person.
 
-    middle_male()
+    "middle_male()"
             Returns random middle name of male person.
 
-    middle_female()
+    "middle_female()"
             Returns random middle name of female person.
 
-    name([$sex])
+    "name([$sex])"
             Recieves scalar with sex of the person ('male' or 'female') and
             returns scalar with generated name. Default value of $sex
             variable is 'male'.
