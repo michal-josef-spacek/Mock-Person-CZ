@@ -1,5 +1,6 @@
 0.04
  - Fix comment (thanks Mohammad S Anwar).
+ - Move author tests to xt/ directory.
  - Update LICENSE AND COPYRIGHT section to my standard.
  - Update Module::Install to 1.16 version.
  - Update copyright years.
