@@ -162,8 +162,8 @@ DEPENDENCIES
     Exporter, Readonly.
 
 SEE ALSO
-    Mock::Person, Mock::Person::DE, Mock::Person::EN, Mock::Person::SK,
-    Mock::Person::SK::ROM, Mock::Person::SV, Mock::Person::RU.
+    Task::Mock::Person
+        Install the Mock::Person modules.
 
 REPOSITORY
     <https://github.com/tupinek/Mock-Person-CZ>

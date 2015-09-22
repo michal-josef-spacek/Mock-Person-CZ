@@ -535,13 +535,13 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<Mock::Person>,
-L<Mock::Person::DE>,
-L<Mock::Person::EN>,
-L<Mock::Person::SK>,
-L<Mock::Person::SK::ROM>,
-L<Mock::Person::SV>,
-L<Mock::Person::RU>.
+=over
+
+=item L<Task::Mock::Person>
+
+Install the Mock::Person modules.
+
+=back
 
 =head1 REPOSITORY
 
