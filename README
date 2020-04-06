@@ -57,11 +57,9 @@ SUBROUTINES
             variable is 'male'.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::CZ qw(name);
 
@@ -72,11 +70,9 @@ EXAMPLE1
      # Štefan Lukáš Šimek
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::CZ;
 
