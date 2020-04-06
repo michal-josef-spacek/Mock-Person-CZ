@@ -1,6 +1,7 @@
 0.05
  - Fix author requires.
  - Update Module::Install to 1.19 version.
+ - Update author github username.
  - Update author name.
 
 0.04 2015-09-22T13:14:45+02:00
