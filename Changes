@@ -1,4 +1,5 @@
 0.05
+ - Fix Makefile.PL fails with no '.' in @INC.
  - Fix author requires.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
