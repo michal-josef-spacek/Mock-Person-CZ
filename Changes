@@ -1,5 +1,6 @@
 0.05
  - Fix author requires.
+ - Improve SYNOPSIS section in doc.
  - Update Module::Install to 1.19 version.
  - Update author github username.
  - Update author name.
