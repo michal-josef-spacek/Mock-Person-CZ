@@ -388,39 +388,51 @@ L<cs.wikipedia.org - female names|http://cs.wikipedia.org/wiki/Seznam_nej%C4%8Da
 
 =head1 SUBROUTINES
 
-=over 8
+=head2 C<first_male>
 
-=item C<first_male()>
+ my $first_male = first_male();
 
 Returns random first name of male person.
 
-=item C<first_female()>
+=head2 C<first_female>
+
+ my $first_female = first_female();
 
 Returns random first name of female person.
 
-=item C<last_male()>
+=head2 C<last_male>
+
+ my $last_male = last_male();
 
 Returns random last name of male person.
 
-=item C<last_female()>
+=head2 C<last_female>
+
+ my $last_female = last_female();
 
 Returns random last name of female person.
 
-=item C<middle_male()>
+=head2 C<middle_male>
+
+ my $middle_male = middle_male();
 
 Returns random middle name of male person.
 
-=item C<middle_female()>
+=head2 C<middle_female>
+
+ my $middle_female = middle_female();
 
 Returns random middle name of female person.
 
-=item C<name([$sex])>
+=head2 C<name>
 
-Recieves scalar with sex of the person ('male' or 'female') and returns
-scalar with generated name.
+ my $name = name($sex);
+
+Recieves scalar with sex of the person ('male' or 'female').
+
 Default value of $sex variable is 'male'.
 
-=back
+Returns scalar with generated name.
 
 =head1 EXAMPLE1
 
