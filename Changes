@@ -1,5 +1,6 @@
 0.06
  - Fix bugtracker.
+ - Update copyright years.
 
 0.05 2020-04-07T11:42:33+02:00
  - Fix Makefile.PL fails with no '.' in @INC.
