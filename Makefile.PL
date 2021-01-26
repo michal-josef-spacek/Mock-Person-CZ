@@ -20,8 +20,7 @@ recursive_author_tests('xt');
 requires 'Exporter' => 0;
 requires 'Readonly' => 0;
 requires 'perl' => '5.8.0';
-resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=Mock-Person-CZ';
+resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Mock-Person-CZ/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Mock-Person-CZ';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Mock-Person-CZ';
 test_requires 'List::MoreUtils' => 0;
