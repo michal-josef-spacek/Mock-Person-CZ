@@ -3,7 +3,7 @@ NAME
 
 SYNOPSIS
      use Mock::Person::CZ qw(first_male first_female last_male last_female
-             middle_male middle_female name);
+             middle_male middle_female name name_female name_male);
 
      my $first_male = first_male();
      my $first_female = first_female();
@@ -12,6 +12,8 @@ SYNOPSIS
      my $middle_male = middle_male();
      my $middle_female = middle_female();
      my $name = name($sex);
+     my $name_female = name_female();
+     my $name_male = name_male();
 
 DESCRIPTION
     Data for this module was found on these pages:
@@ -72,6 +74,20 @@ SUBROUTINES
     Default value of $sex variable is 'male'.
 
     Returns scalar with generated name.
+
+  "name_female"
+     my $name_female = name_female();
+
+    Construct Czech random female name.
+
+    Returns string.
+
+  "name_male"
+     my $name_male = name_male();
+
+    Construct Czech random male name.
+
+    Returns string.
 
 EXAMPLE1
      use strict;

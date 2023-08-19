@@ -28,5 +28,7 @@ t/Mock-Person-CZ/06-last_female.t
 t/Mock-Person-CZ/07-middle_male.t
 t/Mock-Person-CZ/08-middle_female.t
 t/Mock-Person-CZ/09-name.t
+t/Mock-Person-CZ/10-name_female.t
+t/Mock-Person-CZ/11-name_male.t
 xt/Mock-Person-CZ/01-pod_coverage.t
 xt/Mock-Person-CZ/02-pod.t

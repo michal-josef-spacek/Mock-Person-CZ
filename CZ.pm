@@ -10,7 +10,8 @@ use Readonly;
 # Constants.
 Readonly::Scalar our $SPACE => q{ };
 Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
-	last_male last_female middle_male middle_female name);
+	last_male last_female middle_male middle_female name name_female
+	name_male);
 
 our $VERSION = 0.07;
 
@@ -334,10 +335,18 @@ sub middle_female {
 sub name {
 	my $sex = shift;
 	if (defined $sex && $sex eq 'female') {
-		return first_female().$SPACE.middle_female().$SPACE.last_female();
+		return name_female();
 	} else {
-		return first_male().$SPACE.middle_male().$SPACE.last_male();
+		return name_male();
 	}
+}
+
+sub name_female {
+	return first_female().$SPACE.middle_female().$SPACE.last_female();
+}
+
+sub name_male {
+	return first_male().$SPACE.middle_male().$SPACE.last_male();
 }
 
 1;
@@ -355,7 +364,7 @@ Mock::Person::CZ - Generate random sets of Czech names.
 =head1 SYNOPSIS
 
  use Mock::Person::CZ qw(first_male first_female last_male last_female
-         middle_male middle_female name);
+         middle_male middle_female name name_female name_male);
 
  my $first_male = first_male();
  my $first_female = first_female();
@@ -364,6 +373,8 @@ Mock::Person::CZ - Generate random sets of Czech names.
  my $middle_male = middle_male();
  my $middle_female = middle_female();
  my $name = name($sex);
+ my $name_female = name_female();
+ my $name_male = name_male();
 
 =head1 DESCRIPTION
 
@@ -433,6 +444,22 @@ Recieves scalar with sex of the person ('male' or 'female').
 Default value of $sex variable is 'male'.
 
 Returns scalar with generated name.
+
+=head2 C<name_female>
+
+ my $name_female = name_female();
+
+Construct Czech random female name.
+
+Returns string.
+
+=head2 C<name_male>
+
+ my $name_male = name_male();
+
+Construct Czech random male name.
+
+Returns string.
 
 =head1 EXAMPLE1
 
