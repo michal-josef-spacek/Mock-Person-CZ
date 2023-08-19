@@ -6,6 +6,8 @@ use List::MoreUtils qw(any);
 use Test::More 'tests' => 13;
 use Test::NoWarnings;
 
+$Mock::Person::CZ::STRICT_NUM_NAMES = 3;
+
 # Test.
 my $ret1 = name();
 like($ret1, qr{^\w+\ \w+\ \w+$}, 'Default name must be three words.');

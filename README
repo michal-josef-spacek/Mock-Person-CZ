@@ -71,6 +71,9 @@ SUBROUTINES
 
     Recieves scalar with sex of the person ('male' or 'female').
 
+    Number of names is 2 or 3. What is created is defined by
+    $STRICT_NUM_NAMES variable. See in "VARIABLES" section.
+
     Default value of $sex variable is 'male'.
 
     Returns scalar with generated name.
@@ -80,6 +83,9 @@ SUBROUTINES
 
     Construct Czech random female name.
 
+    Number of names is 2 or 3. What is created is defined by
+    $STRICT_NUM_NAMES variable. See in "VARIABLES" section.
+
     Returns string.
 
   "name_male"
@@ -87,7 +93,20 @@ SUBROUTINES
 
     Construct Czech random male name.
 
+    Number of names is 2 or 3. What is created is defined by
+    $STRICT_NUM_NAMES variable. See in "VARIABLES" section.
+
     Returns string.
+
+VARIABLES
+    $STRICT_NUM_NAMES
+        Variable which control number of generated names.
+
+        Possible values:
+
+         0 - Random between 2 and 3 choice (default value).
+         2 - First and last name.
+         3 - First, middle and last name.
 
 EXAMPLE1
      use strict;

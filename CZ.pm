@@ -15,6 +15,8 @@ Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
 
 our $VERSION = 0.07;
 
+our $STRICT_NUM_NAMES = 0;
+
 # First and middle male names.
 our @first_male = our @middle_male = qw(
 Adam
@@ -342,11 +344,27 @@ sub name {
 }
 
 sub name_female {
-	return first_female().$SPACE.middle_female().$SPACE.last_female();
+	my $strict_num_names = $STRICT_NUM_NAMES;
+	if ($strict_num_names == 0) {
+		$strict_num_names = int(rand(2)) + 2;
+	}
+	if ($strict_num_names == 3) {
+		return first_female().$SPACE.middle_female().$SPACE.last_female();
+	} elsif ($strict_num_names == 2) {
+		return first_female().$SPACE.last_female();
+	}
 }
 
 sub name_male {
-	return first_male().$SPACE.middle_male().$SPACE.last_male();
+	my $strict_num_names = $STRICT_NUM_NAMES;
+	if ($strict_num_names == 0) {
+		$strict_num_names = int(rand(2)) + 2;
+	}
+	if ($strict_num_names == 3) {
+		return first_male().$SPACE.middle_male().$SPACE.last_male();
+	} elsif ($strict_num_names == 2) {
+		return first_male().$SPACE.last_male();
+	}
 }
 
 1;
@@ -441,6 +459,9 @@ Returns random middle name of female person.
 
 Recieves scalar with sex of the person ('male' or 'female').
 
+Number of names is 2 or 3. What is created is defined by C<$STRICT_NUM_NAMES>
+variable. See in L</VARIABLES> section.
+
 Default value of $sex variable is 'male'.
 
 Returns scalar with generated name.
@@ -451,6 +472,9 @@ Returns scalar with generated name.
 
 Construct Czech random female name.
 
+Number of names is 2 or 3. What is created is defined by C<$STRICT_NUM_NAMES>
+variable. See in L</VARIABLES> section.
+
 Returns string.
 
 =head2 C<name_male>
@@ -459,7 +483,26 @@ Returns string.
 
 Construct Czech random male name.
 
+Number of names is 2 or 3. What is created is defined by C<$STRICT_NUM_NAMES>
+variable. See in L</VARIABLES> section.
+
 Returns string.
+
+=head1 VARIABLES
+
+=over
+
+=item C<$STRICT_NUM_NAMES>
+
+Variable which control number of generated names.
+
+Possible values:
+
+ 0 - Random between 2 and 3 choice (default value).
+ 2 - First and last name.
+ 3 - First, middle and last name.
+
+=back
 
 =head1 EXAMPLE1
 

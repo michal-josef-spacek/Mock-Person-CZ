@@ -1,5 +1,7 @@
 0.07
  - Add name_female() and name_male() functions.
+ - Implement random number of generated names. First name vs first with
+   middle names.
  - Move copyright dates to begin of copyright string.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
