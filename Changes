@@ -3,6 +3,7 @@
  - Implement random number of generated names. First name vs first with
    middle names.
  - Move copyright dates to begin of copyright string.
+ - Rename example files to better names.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 

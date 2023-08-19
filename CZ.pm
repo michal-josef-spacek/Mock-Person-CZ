@@ -506,6 +506,8 @@ Possible values:
 
 =head1 EXAMPLE1
 
+=for comment filename=random_name.pl
+
  use strict;
  use warnings;
 
@@ -519,6 +521,8 @@ Possible values:
  # Štefan Lukáš Šimek
 
 =head1 EXAMPLE2
+
+=for comment filename=list_last_male_names.pl
 
  use strict;
  use warnings;
