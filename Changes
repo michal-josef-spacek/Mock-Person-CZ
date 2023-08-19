@@ -1,4 +1,5 @@
 0.07
+ - Move copyright dates to begin of copyright string.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 
