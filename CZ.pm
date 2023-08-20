@@ -13,7 +13,7 @@ Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
 	last_male last_female middle_male middle_female name name_female
 	name_male);
 
-our $VERSION = 0.07;
+our $VERSION = 0.08;
 
 our $STRICT_NUM_NAMES = 0;
 
@@ -650,6 +650,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.07
+0.08
 
 =cut
