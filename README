@@ -69,14 +69,13 @@ SUBROUTINES
   "name"
      my $name = name($sex);
 
-    Recieves scalar with sex of the person ('male' or 'female').
+    Construct random person name. If a $sex variable is specified, name
+    could be male or female.
 
     Number of names is 2 or 3. What is created is defined by
     $STRICT_NUM_NAMES variable. See in "VARIABLES" section.
 
-    Default value of $sex variable is 'male'.
-
-    Returns scalar with generated name.
+    Returns string.
 
   "name_female"
      my $name_female = name_female();

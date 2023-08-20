@@ -336,7 +336,17 @@ sub middle_female {
 # Get random name.
 sub name {
 	my $sex = shift;
-	if (defined $sex && $sex eq 'female') {
+
+	# In case of undefined sex, get random.
+	if (! defined $sex) {
+		if (int(rand(2))) {
+			$sex = 'female';
+		} else {
+			$sex = 'male';
+		}
+	}
+
+	if ($sex eq 'female') {
 		return name_female();
 	} else {
 		return name_male();
@@ -457,14 +467,13 @@ Returns random middle name of female person.
 
  my $name = name($sex);
 
-Recieves scalar with sex of the person ('male' or 'female').
+Construct random person name. If a C<$sex> variable is specified, name could be
+male or female.
 
 Number of names is 2 or 3. What is created is defined by C<$STRICT_NUM_NAMES>
 variable. See in L</VARIABLES> section.
 
-Default value of $sex variable is 'male'.
-
-Returns scalar with generated name.
+Returns string.
 
 =head2 C<name_female>
 
